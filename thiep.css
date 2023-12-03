@@ -1,0 +1,70 @@
+#bat{
+    width:4%;
+    height: 4%;
+}
+#cat{
+    width: 4%;
+    height: 4%;
+}
+#ne{
+    width: 4%;
+    height: 4%;
+}
+#bi{
+    width: 10%;
+    height: 10%;
+}
+#ma{
+    left: 50px;
+    top: 100px;
+    position: absolute;
+    animation-name: ma;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes ma{
+    0%{left: 50px;top: 100px;}
+    20%{left:500px;top: 400px;opacity: 100%;}
+    25%{left:500px;top: 400px;opacity: 0%;}
+    40%{left: 20px;top: 800px;opacity: 0%;}
+    45%{left: 20px;top: 800px;opacity: 100%;}
+    70%{left: 1000px;top: 100px;opacity: 100%;transform: scaleX(1);}
+    75%{left: 1000px;top: 100px;opacity: 100%;transform: scaleX(-1);}
+    80%{left: 700px;top: 100px;opacity: 0%;}
+    90%{left:100px;top: 200px;opacity:100%;transform: scaleX(-1);}
+    95%{left:100px;top: 200px;opacity:0%;transform: scaleX(1);}
+}
+#phu{
+    left: 1400px;
+    top: 600px;
+    position: absolute;
+    animation-name: phu;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes phu{
+    0%{left: 1400;top: 600px;transform: scaleX(1)}
+    50%{left: 1400;top: 600px;transform: scaleX(-1);}
+    100%{left: 1400;top: 600px;transform: scaleX(1)}
+}
+#mum{
+    
+    left: 1400px;
+    top: 600px;
+    position: absolute;
+    animation-name: mum;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    
+}
+@keyframes mum{
+    0%{left: 1400;top: 600px;transform: scaleX(1) scaleY(1)}
+    50%{left: 1400;top: 600px;transform: scaleX(1.5) scaleY(1.5) ;}
+    
+}
